@@ -1,0 +1,102 @@
+/* HOME SCSS STYLES
+============================================================== */
+/* CALLOUT STYLES */
+.callout {                                  height:700px; display: block; background-color: #1A3667;}
+.callout .image {                           margin: 0; padding: 0; float: left;}
+.callout .image img {                       height: 100%;}
+.callout .content {                         width: 600px; margin: 180px 0 0 120px; float: left;}
+.callout .content h1 {                      display: inline-block;}
+.callout .content h1 svg {                  height: 106px; margin: 25px 0 -25px 15px; display: inline-block; fill: #fff;}
+.callout .content p {                       margin: 33px 0;}
+.callout .content .action {                 height: 54px; margin: 0 0 33px;}
+.callout .content .action a {               margin: 0 20px 0 0; padding: 15px 43px; display: inline-block; border: 2px solid #fff; border-radius: 5px; color: #fff;}
+.action a.join {                            color: #1A3667 !important; border-color: #F3E454 !important; background-color: #F3E454 !important;}
+.callout .content img {                     width: 160px; margin: 0 40px 0 0;}
+
+/* LEFT-COLUMN STYLES */
+.home .content {                            padding: 80px 34px 80px 80px; background-color: #22cf3f}
+.home .content h1 {                         margin: 0 0 40px;}
+.home .content .video {                     width: 100%; margin: 0 0 40px; display: block; position: relative;}
+.home .content .video img {                 width: 100%; border-radius: 12px;} 
+.video svg {                                font-size: 36px; padding: 36px 48px; position: absolute; top: 50%; transform: translateY(-60%); left: 50%; margin-left: -55px; border-radius: 50%; color: #fff; background-color: #f6a;}
+
+.home .featured {                           display: block; padding: 0; background-color: #987;}
+.home .featwrap {                           margin-left: -10px; margin-right: -10px; width: auto !important; background-color: #f6a;}
+.home .views {                              padding: 0 10px 0; background-color: #f09;}
+.home .views .image {                       width: 100%;}
+.home .views .image img {                   width: 100%; border-radius: 12px 12px 0 0;}
+.home .views .text {                        padding: 30px 25px 40px; background-color: #1A3667;}
+.home .views .text a svg {                  margin: 0 0 0 7px;}
+
+.home ul.tags {                             display: block; margin: 0 0 58px; background-color: #f09;}
+.home ul.tags li {                          display: inline-block; padding: 8px 28px; margin: 0 17px 0 0; cursor: pointer; border: 2px solid #1A3667; border-radius: 5px;}
+.home ul.tags li.active {                   background-color: #1A3667;}
+
+.homebg {                                   background-color: #f5fdff;}
+.home .slide-panel {                        width: 100%; display: block; position: relative; padding: 0; background-color: rgb(247, 111, 0);}
+.home .slide {                              margin: 0 0 37px; background-color: #1A3667;}
+.home .slide .image {                       width: 266px; height: 216px; float: left; margin: 0 46px 0 0; background-color: rgb(230, 162, 17);}
+.home .slide .image img {                   width: 100%; display: inline-block; border-radius: 12px 0 0 12px;}
+.home .slide .textwrap {                    width: 100%; height: 216px;}
+.home .slide .text {                        padding: 36px 45px 36px 40px;}
+.home .slide .text h2 {                     margin: 0 0 5px;}
+.home .slide .text h3 {                     font-family: 'Lato', sans-serif; font-size: 12px; line-height: 12px; font-weight: 400; text-transform: none; margin: 0 0 10px;}
+.home .slide .text a svg {                  margin: 0 0 0 7px;}
+.home ul.panel-buttons {                    width: 100%; text-align: center;}
+.home ul.panel-buttons li {                 display: inline-block; padding: 8px 14px; margin: 0 17px 0 0; cursor: pointer; border: 2px solid #1A3667; border-radius: 5px; color: #1A3667;}
+
+
+/* RIGHT-COLUMN STYLES */
+.home .side {                               padding: 80px 80px 0 34px; background-color: #c45;}
+.home .side .asset {                        width: 100%;}
+.home .side .asset img {                    width: 100%; margin: 0 0 33px; border-radius: 12px;}
+
+.home .side h1 {                            margin: 0 0 40px;}
+.home .cardpanel {                          margin: 0 0 35px;}
+.home .cardwrap {                           width: calc(100% - 70px); padding: 22px 46px 22px 24px; margin: 0 0 25px; border-radius: 12px; background-color: #ace223;}
+.home .cardwrap:last-child {                margin: 0;}
+.home .card img {                           width: 66px; height: 66px; border-radius: 12px; margin: 0 0 30px;}
+.home .card h2 {                            margin: 0 0 15px; color: #1a1a1a;}
+.home .card p {                             margin: 0 0 28px;}
+.home .card a svg {                         margin: 0 0 0 7px;}
+
+.home .slice-panel {                        width: 100%; display: block; position: relative; padding: 0; background-color: rgb(247, 111, 0);}
+.home .slice {                              margin: 0 0 37px; background-color: #1A3667;}
+.home .slice .image {                       width: 132px; height: 107px; float: left; margin: 0 22px 0 0; background-color: rgb(230, 162, 17);}
+.home .slice .image img {                   width: 100%; display: inline-block; border-radius: 12px 0 0 12px;}
+.home .slice .textwrap {                    width: 100%; height: 216px;}
+.home .slice .text {                        padding: 15px 45px 15px 40px;}
+.home .slice .text p {                      margin: 8px 0;}
+.home .slice .text h5 {                     margin: 0 0 5px;}
+.home .slice .text a svg {                  margin: 0 0 0 7px;}
+
+
+
+/* HOME TYPOGRAPHY STYLES
+============================================================== */
+/* CALLOUT STYLES */
+.callout .content h1 {                          font-size: 86px; line-height: 66px; text-transform: uppercase; font-weight: 700; color: #fff;}
+.callout .content p {                           font-size: 20px; line-height: 28px; font-weight: 400; color: #fff;}
+.callout .content .action a {                   font-size: 20px; line-height: 20px; font-weight: 700; text-decoration: none; color: #fff;}
+.home .content p {                              font-size: 20px; line-height: 28px; font-weight: 400; margin: 0 26px 20px 0; color: #1A3667;}
+.home .views .text h2 {                         margin: 0 0 20px; color: #fff;}
+.home .views .text p {                          font-size: 16px; line-height: 23px; margin: 0 0 20px; color: #fff;}
+.home .views .text a {                          font-size: 18px; line-height: 25px; font-weight: 700; text-decoration: none; color: #F3E454;}
+.home ul.tags li {                              font-size: 14px; line-height: 14px; font-weight: 400; color: #1A3667;}
+.home ul.tags li.active {                       color: #fff;}
+.home .slide .text h2 {                         color: #fff;}
+.home .slide .text h3 {                         font-family: 'Lato', sans-serif; font-size: 12px; line-height: 12px; font-weight: 400; text-transform: none; margin: 0 0 10px; color: #fff;}
+.home .slide .text p {                          color: #fff;}
+.home .slide .text a {                          font-size: 18px; line-height: 25px; font-weight: 700; text-decoration: none; color: #F3E454;}
+.home .card p {                                 font-size: 14px; line-height: 20px; font-weight: 400; color: #1a1a1a;}
+.home .card a {                                 font-weight: 700; text-decoration: none; color: #F3E454;}
+.home .slice .text h4 {                         color: #fff;}
+.home .slice .text p {                          font-size: 18px; line-height: 18px; color: #fff;}
+.home .slice .text a {                          font-size: 18px; line-height: 25px; font-weight: 700; text-decoration: none; color: #F3E454;}
+
+
+
+/* HOVER STYLES
+============================================================== */
+/* HOVERS */
+.callout .content .action a:hover, .action a.join:hover, .home ul.tags li:hover, .home ul.tags li.active:hover, .home ul.panel-buttons li:hover {         color: #fff !important; border-color: #30A1B7 !important; background-color: #30A1B7 !important;}

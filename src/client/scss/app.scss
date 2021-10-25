@@ -1,0 +1,50 @@
+/* BOOTSTRAP IMPORTS */
+// @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+
+
+/* SCSS IMPORTS */
+@import './skeleton.scss';
+@import './header.scss';
+@import './home.scss';
+@import './trials.scss';
+@import './footer.scss';
+
+
+/* #RESETS & BASICS
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, form, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;	padding: 0;	border: 0; font-size: 100%;	font: inherit;	vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, form, header, hgroup, menu, nav, section, span {
+    display: block; }
+ol, ul, menu  {		list-style: none; }
+blockquote, q {		quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after {
+    content: ''; content: none; }
+table {				 border-spacing: 0; border-collapse: collapse;}
+html {				width:100%; height: 100%;}
+body {				min-height: 100%; position: relative;}
+
+
+/* #GLOBAL STYLES
+================================================== */
+/* TRANSITIONS */
+ul.users li.joinus, ul.users li.login, .callout .content .action a, .action a.join, .home ul.tags li, .home ul.tags li.active, .home ul.panel-buttons li, ul.sitemap li a, a.iconFace svg, a.iconTwit svg, a.iconTube svg, a.iconLink svg, a.iconDisc svg, .trials .view .image, .trials .view .content p, .trials .action a, .trials .action a svg, .results .panel a.button, .results .panel {                                               transition: all 500ms cubic-bezier(0.45, 0, 0.55, 1); -moz-transition: all 500ms cubic-bezier(0.45, 0, 0.55, 1); -webkit-transition: all 500ms cubic-bezier(0.45, 0, 0.55, 1);}
+
+
+
+
+/* #GLOBAL TYPOGRAPHY
+================================================== */
+body {              font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 16px; font-weight: 300;}
+
+h1, h2, h3, h4, h5, h6 {	font-family: 'Oswald', sans-serif; font-weight: 900; text-transform: uppercase; color: #131d49;}
+h1 { font-size: 42px; line-height: 42px;}
+h2 { font-size: 24px; line-height: 24px;}
+h3 { font-size: 20px; line-height: 20px;}
+h4 { font-size: 18px; line-height: 18px;}
+h5 { font-size: 14px; line-height: 14px;}

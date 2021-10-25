@@ -1,0 +1,37 @@
+/* FOOTER SCSS STYLES
+============================================================== */
+/* SPONSOR STYLES */
+.foot .sponsors {                           width: 100%; padding: 100px 0 100px;}
+.foot .sponsors h1 {                        margin: 0 0 50px; text-align: center;}
+.foot .sponsors .images {                   display: block; text-align: center;}
+.foot .sponsors img {                       height: 93px; display: inline-block; margin: 0 40px;}
+
+.foot .splash {                             width: 100%; height: 406px; background-color: #30A1B7;}
+.foot .splash .image {                      width: 400px; float: left;}
+.foot .splash .image img {                  width: 100%;}
+.foot .splash .text {                       width: 1300px; margin: 140px 0 0 120px; float: left;}
+.foot .splash .text p {                     font-size: 32px; margin: 0 0 50px; line-height: 36px; font-weight: 700; color: #fff;}
+.foot .splash .text a {                     font-size: 12px; line-height: 12px; font-weight: 700; margin: 20px 0 0; padding: 15px 43px; border-radius: 5px; text-transform: uppercase; text-decoration: none; color: #131d49; background-color: #F3E454;}
+
+.footer {                                   padding: 70px 0 0; background-color: #131d49;}
+.footLogo {                                 margin: 0 0 30px;}
+.footer img {                               height: 66px; margin: 0 0 20px;}
+.footer p {                                 font-size: 12px; margin: 0 0 10px; text-align: left; color: #fff;}
+.footLogo p {                               padding: 0 40px 0 0;}
+.footer svg {                               display: inline-block; font-size: 12px; margin: 0 6px 0 0; color: #fff;}
+.footer h1 {                                margin: 0 0 33px; color: #fff;}
+.footer .social svg {                       display: inline-block; font-size: 28px; margin: 12px 12px 0 0;}
+ul.sitemap {                                padding: 13px 0 0; display: block;}
+ul.sitemap li {                             font-family: 'Lato', sans-serif; font-size: 24px; font-weight: 900; text-transform: uppercase; display: inline-block; margin: 0 15px 10px 0; color: #fff;}
+ul.sitemap li a {                           text-decoration: none; color: #fff;}
+ul.sitemap li a:hover {                     text-decoration: underline; color: #30A1B7;}
+ul.sitemap li svg {                         font-size: 24px;}
+
+a.iconFace svg:hover {              color:#1877f2;}
+a.iconTwit svg:hover {              color:#1da1f2;}
+a.iconTube svg:hover {              color:#ff0000;}
+a.iconLink svg:hover {              color:#0a66c2;}
+a.iconDisc svg:hover {              color:#5865F2;}
+
+.footEnd {               padding: 5px 0; border-top: 1px solid #fff;}
+.footEnd p {             margin: 0; padding: 10px 0 10px; color: #fff;}
